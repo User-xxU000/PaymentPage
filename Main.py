@@ -2,7 +2,7 @@ import streamlit as st
 import gspread
 import time
 
-
+st.title("Finalizing Purchase")
 col1,col2,col3,col4,col5,col6 = st.columns(6)
 
 
