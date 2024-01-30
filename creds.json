@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "databaseserverpaymentgw2",
+  "private_key_id": "12d5bb8693fd9d5ca0455bf36b58a2b45a16fd5b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxC5slrQjls2eB\nlM0HxNEjDpY5UrVU+Qb+MI5XCSGzGc/qghrboUdzH+lRZ12IlhgDqMKMplhuIINl\nJWjNFaw9cbzFaRbaSrGt36j+LGnzsCq5A6eAqxrVaTXuF7jTuX446UZJjRVhPxYC\nw810wwFItjhvV7FE3dJDAqyXBCSnMEowOh44Ol+EOHR8bw8ACHXkVvugTSEjOd8a\n8ugve07exrD23W0fuJ0mG2bvxu27ENFi5JmOC31kZT4g+oXBgEXgg4z1+c2GuK12\nnhdSbpLtja96M+a1iFhRrZe4vCj7XaAxOKBTrE6c61dhXRKhvox4aKsWtLIgt94V\ngPuZvKS1AgMBAAECggEAEKczUkFq71RHPaiV+o+YTnBeUAkIFnSQJFPD58rrmRGp\n/Xh8d0E928XaJ/aNlT3tB1cV6a3x7nXvdhGlQHkz6NmsdHM0m5bgDKdXmYTq+GmP\nMzT1SgSOMxnA4WLo1z2A8nB61ItJQgrxkpQBXOTE16aQO2Tnvz8QOo5jVpckrXcU\npvrFJQA99zEk1bc0rV3TkQ/aQaxYv7Gg+BaTtVMpTb24+iv5Co3JrFcAtDitd3ON\nh1RLuXHRhsMfisj6/MbjGy+KdBM9uzgK0ElAzGQEKmj0QXgn77jfVHASMLpN3/mZ\nbTR4lQggvxsiyXyUctaicKgZ2SeXzntGLtqkp+RL5wKBgQDoZhy8YBguCCb2jbvU\nufMnCLI0BlcgrmEp8QMFE+YikYX7HLuDjxxuI5NK/cLuZ75EdUn8DgfQo7uzp7YE\nCe8f+16p9S8zbR7Bl2BOB6YBFw9hzrEnU+bssndRPokgZ7EHHXQdXYeEfFUFfnFH\nzBF9mfs+2Cj0+n+dDg9QSzCe6wKBgQDDBmqzzzsB+q7XPpPmLSU8obxv/y5xFDc4\nB9cvtd1yh6PkI7jro+LgNHuQ28Lvj2mut1WCnxNaVjLh6jkd33Btwab3vdcMMzvG\nm5GLg1o6J4J9qKty9DZBRWlezOcdqVpbCtfkrVDBmrSZKhBxjXnXpSiRq9mq/5hi\nftLi1BUi3wKBgCN/7aXM3AS0FBeXgPi2yvDMgEQ4L7j7SjZY7YgqCP6A0kGQmwg2\npTYh0w8iglNen47fh8Sr8/+n8zU3SjOFvPRatpQpsuMdKRSTZg+lVXNXLW9YXnFO\nfLjtbhKIBfRgQod+tU0DC39uaqJjNTStdIKGMf3gkSkS1smL60Ttp2ivAoGBAKkz\neQG1qlFGR8jRLwoFYwgenllgwM80pc/D5assEwuZqNR3NamjT2QLxKTiNVcYSq1d\nvB+OmgDHRnAAgTtsrqNa3tyT5O5dyN+/+t9av74ypyEUZGNgg23PpeKszVtLoevZ\nFYP95lGCQmucNhX+k5ZHYVI5EaktBe12cMqBDDFrAoGBAJrXWG2HzBVnTwwBC1w0\nwLq1RSTfG8LKgibB2lC1+oFJH9ftrpA1iw8p16redrLnTdI4WCN89brRmulLXXIW\nSthNfilNPtTuhfjmJCSgo+WuvlM+iCWOHHpMPjTBB3zjBaF9Ug5ez1N8heFSJGTb\nkrCCgCIOW5fXGizWiKhO7Hqd\n-----END PRIVATE KEY-----\n",
+  "client_email": "databaseserver@databaseserverpaymentgw2.iam.gserviceaccount.com",
+  "client_id": "112224181202148729932",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/databaseserver%40databaseserverpaymentgw2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
