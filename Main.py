@@ -1,6 +1,7 @@
 import streamlit as st
 import gspread
-import webbrowser
+
+
 
 
 st.set_page_config(page_title="Finalizing Purchase")
@@ -78,9 +79,11 @@ def send_data():
 
 # Create a placeholder for the button
 button_placeholder = st.empty()
-
+def a():
+    if st.link_button("Click Me","https://notice-about-your-order.onrender.com"):
+        print(" ")
 # Display the button in the placeholder
-import streamlit as st
+
 
 
 if button_placeholder.button("Place A Order"):
@@ -89,8 +92,7 @@ if button_placeholder.button("Place A Order"):
         send_data()
     
     # Open a new tab with the specified URL
-    webbrowser.open_new_tab("https://notice-about-your-order.onrender.com/")
-    
+    a()
     # Display a success message
     st.success("Your order has been placed successfully. Check your email address.")
 
